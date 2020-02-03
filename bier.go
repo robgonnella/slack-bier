@@ -112,7 +112,7 @@ func buildBusinessBlocks(params *Params, businesses []Business) []Block {
 	}
 	for _, b := range businesses {
 		text := fmt.Sprintf(
-			"*%s %s:* %.1f Stars (%d reviews)\n%s\n\n%s",
+			"*%s %s:* %.1f ⭐ (%d reviews)\n%s\n\n%s",
 			b.Name,
 			b.Price,
 			b.Rating,
